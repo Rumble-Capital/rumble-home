@@ -3351,3 +3351,54 @@ input, select, textarea {
 		header {
 			padding-top:180px;
 		}
+
+		.rumble-title {
+			font-family: afcamberwellone;
+			color: #585858;
+			font-size: 63px;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			text-align: center;
+			font-weight: 500;
+		}
+
+		@media screen and (min-width: 375px) {
+			.rumble-title {
+				font-size:77px;
+					font-weight: 500;
+			}
+
+		}
+
+		@media screen and (min-width: 425px) {
+			.rumble-title {
+				font-size:89px;
+					font-weight: 500;
+			}
+
+		}
+
+		@media screen and (min-width: 768px) {
+			.rumble-title {
+				font-size:161px;
+					font-weight: 500;
+			}
+
+		}
+
+
+		@media screen and (min-width: 1440px) {
+			.rumble-title {
+				font-size:255px;
+				letter-spacing:6px;
+			}
+
+		}
+
+		footer {
+			position: fixed;
+    height: 40px;
+    bottom: 0px;
+    width: 100%;
+    background: black;
+		}
