@@ -3396,6 +3396,7 @@ input, select, textarea {
 			.rumble-title {
 				font-size:255px;
 				letter-spacing:6px;
+				margin-top:135px;
 			}
 
 		}
@@ -3418,4 +3419,9 @@ input, select, textarea {
 	    margin-top: 42px;
 	    font-weight: 500;
 	    font-weight: 700;
+		}
+
+		nav {
+			height: 35px;
+    background: black;
 		}
