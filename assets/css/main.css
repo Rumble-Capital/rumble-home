@@ -3360,6 +3360,11 @@ input, select, textarea {
 			text-transform: uppercase;
 			text-align: center;
 			font-weight: 500;
+			margin:0;
+		}
+
+		.sub-text {
+			text-align:center;
 		}
 
 		@media screen and (min-width: 375px) {
@@ -3401,4 +3406,15 @@ input, select, textarea {
     bottom: 0px;
     width: 100%;
     background: black;
+		}
+
+		div#getting-started {
+			text-align: center;
+		    margin-bottom: 50px;
+		    font-family: afcamberwellone;
+		    font-size: 40px;
+		    color: red;
+		    letter-spacing: 14px;
+		    margin-top: 10px;
+		    font-weight: 500;
 		}
